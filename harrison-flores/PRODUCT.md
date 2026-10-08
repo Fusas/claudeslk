@@ -24,8 +24,8 @@ Undecided. The owner has not yet stated what sets Harrison Flores apart from nei
 
 ## Capabilities and Constraints
 
-- Services offered: bouquets and arrangements (buquês e arranjos); plants and pots (plantas e vasos).
-- Not offered: event/wedding decoration, flower subscriptions. Do not present them.
+- Services offered (confirmed by the owner): bouquets and arrangements (buquês e arranjos, including red roses and personalised bouquets); plants and pots, including orchids; gift kits (flowers with chocolates or sparkling wine); bridal bouquets; event decoration; funeral and tribute wreaths (coroas de flores).
+- Not offered: flower subscriptions. Do not present them.
 - Pages: Início, Serviços, Sobre, Contato.
 - Undecided / not provided: address, phone/WhatsApp, opening hours, delivery area, prices, payment methods. Use clearly marked placeholders.
 

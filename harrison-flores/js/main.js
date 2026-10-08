@@ -111,6 +111,44 @@
     else img.addEventListener("error", mark);
   });
 
+  // Carrossel de serviços: botões, pontos e teclado.
+  document.querySelectorAll(".carousel").forEach(function (carousel) {
+    var section = carousel.closest("section");
+    var track = carousel.querySelector(".carousel-track");
+    var slides = track.querySelectorAll(".slide");
+    var dotsBox = carousel.querySelector(".carousel-dots");
+    var buttons = section.querySelectorAll(".carousel-btn");
+    var step = function () { return slides.length > 1 ? slides[1].offsetLeft - slides[0].offsetLeft : track.clientWidth; };
+    var pages = function () { return Math.max(1, Math.round((track.scrollWidth - track.clientWidth) / step()) + 1); };
+    var dots = [];
+    var buildDots = function () {
+      dotsBox.innerHTML = ""; dots = [];
+      for (var i = 0; i < pages(); i++) { var d = document.createElement("span"); dotsBox.appendChild(d); dots.push(d); }
+    };
+    var update = function () {
+      var max = track.scrollWidth - track.clientWidth;
+      var i = Math.round(track.scrollLeft / step());
+      dots.forEach(function (d, k) { d.classList.toggle("is-active", k === Math.min(i, dots.length - 1)); });
+      if (buttons[0]) buttons[0].disabled = track.scrollLeft <= 2;
+      if (buttons[1]) buttons[1].disabled = track.scrollLeft >= max - 2;
+    };
+    buttons.forEach(function (b) {
+      b.addEventListener("click", function () { track.scrollBy({ left: step() * Number(b.getAttribute("data-dir")), behavior: reduceMotion ? "auto" : "smooth" }); });
+    });
+    track.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+        e.preventDefault();
+        track.scrollBy({ left: step() * (e.key === "ArrowRight" ? 1 : -1), behavior: reduceMotion ? "auto" : "smooth" });
+      }
+    });
+    var ticking = false;
+    track.addEventListener("scroll", function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(function () { update(); ticking = false; }); }
+    }, { passive: true });
+    window.addEventListener("resize", function () { buildDots(); update(); });
+    buildDots(); update();
+  });
+
   var year = document.getElementById("ano");
   if (year) year.textContent = String(new Date().getFullYear());
 })();
