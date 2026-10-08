@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T02:27:20+00:00",
+  "title": "Design System: Harrison Flores",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "rose-field": {
+        "role": "primary",
+        "displayName": "Dusty Rose Field",
+        "canonical": "#f3e3e0",
+        "oklch": "oklch(92.8% 0.018 30.3)",
+        "tonalRamp": [
+          "oklch(15.0% 0.018 30.3)",
+          "oklch(26.4% 0.018 30.3)",
+          "oklch(37.9% 0.018 30.3)",
+          "oklch(49.3% 0.018 30.3)",
+          "oklch(60.7% 0.018 30.3)",
+          "oklch(72.1% 0.018 30.3)",
+          "oklch(83.6% 0.018 30.3)",
+          "oklch(95.0% 0.018 30.3)"
+        ]
+      },
+      "rose-deep": {
+        "role": "secondary",
+        "displayName": "Deep Rose Petal",
+        "canonical": "#ebc3bc",
+        "oklch": "oklch(85.0% 0.047 29.7)",
+        "tonalRamp": [
+          "oklch(15.0% 0.047 29.7)",
+          "oklch(26.4% 0.047 29.7)",
+          "oklch(37.9% 0.047 29.7)",
+          "oklch(49.3% 0.047 29.7)",
+          "oklch(60.7% 0.047 29.7)",
+          "oklch(72.1% 0.047 29.7)",
+          "oklch(83.6% 0.047 29.7)",
+          "oklch(95.0% 0.025 29.7)"
+        ]
+      },
+      "rose-ink": {
+        "role": "primary",
+        "displayName": "Rose Clay Ink",
+        "canonical": "#8e4a3f",
+        "oklch": "oklch(49.0% 0.094 30.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.065 30.4)",
+          "oklch(26.4% 0.094 30.4)",
+          "oklch(37.9% 0.094 30.4)",
+          "oklch(49.3% 0.094 30.4)",
+          "oklch(60.7% 0.094 30.4)",
+          "oklch(72.1% 0.094 30.4)",
+          "oklch(83.6% 0.071 30.4)",
+          "oklch(95.0% 0.025 30.4)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "#2b2b2b",
+        "oklch": "oklch(28.9% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "ink-pressed": {
+        "role": "neutral",
+        "displayName": "Pressed Graphite",
+        "canonical": "#1c1c1c",
+        "oklch": "oklch(22.6% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Graphite",
+        "canonical": "#595654",
+        "oklch": "oklch(45.5% 0.005 56.3)",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 56.3)",
+          "oklch(26.4% 0.005 56.3)",
+          "oklch(37.9% 0.005 56.3)",
+          "oklch(49.3% 0.005 56.3)",
+          "oklch(60.7% 0.005 56.3)",
+          "oklch(72.1% 0.005 56.3)",
+          "oklch(83.6% 0.005 56.3)",
+          "oklch(95.0% 0.005 56.3)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(43, 43, 43, 0.14)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "rgba(43, 43, 43, 0.32)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "field-tint": {
+        "role": "neutral",
+        "displayName": "Warm Field Tint",
+        "canonical": "#fbf8f7",
+        "oklch": "oklch(98.1% 0.003 39.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.003 39.5)",
+          "oklch(26.4% 0.003 39.5)",
+          "oklch(37.9% 0.003 39.5)",
+          "oklch(49.3% 0.003 39.5)",
+          "oklch(60.7% 0.003 39.5)",
+          "oklch(72.1% 0.003 39.5)",
+          "oklch(83.6% 0.003 39.5)",
+          "oklch(95.0% 0.003 39.5)"
+        ]
+      },
+      "sage-frame": {
+        "role": "tertiary",
+        "displayName": "Sage Frame",
+        "canonical": "#eef1e9",
+        "oklch": "oklch(95.4% 0.011 123.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.011 123.5)",
+          "oklch(26.4% 0.011 123.5)",
+          "oklch(37.9% 0.011 123.5)",
+          "oklch(49.3% 0.011 123.5)",
+          "oklch(60.7% 0.011 123.5)",
+          "oklch(72.1% 0.011 123.5)",
+          "oklch(83.6% 0.011 123.5)",
+          "oklch(95.0% 0.011 123.5)"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Brick Error",
+        "canonical": "#a33a2c",
+        "oklch": "oklch(49.5% 0.142 30.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.065 30.4)",
+          "oklch(26.4% 0.111 30.4)",
+          "oklch(37.9% 0.142 30.4)",
+          "oklch(49.3% 0.142 30.4)",
+          "oklch(60.7% 0.142 30.4)",
+          "oklch(72.1% 0.116 30.4)",
+          "oklch(83.6% 0.071 30.4)",
+          "oklch(95.0% 0.025 30.4)"
+        ]
+      },
+      "wash-rose": {
+        "role": "tertiary",
+        "displayName": "Rose Wash",
+        "canonical": "#ecc6be",
+        "oklch": "oklch(85.7% 0.045 31.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.045 31.9)",
+          "oklch(26.4% 0.045 31.9)",
+          "oklch(37.9% 0.045 31.9)",
+          "oklch(49.3% 0.045 31.9)",
+          "oklch(60.7% 0.045 31.9)",
+          "oklch(72.1% 0.045 31.9)",
+          "oklch(83.6% 0.045 31.9)",
+          "oklch(95.0% 0.025 31.9)"
+        ],
+        "usage": "opacity 0.72, through watercolour filter wc0-wc2"
+      },
+      "wash-rose-light": {
+        "role": "tertiary",
+        "displayName": "Pale Rose Wash",
+        "canonical": "#f1d9d4",
+        "oklch": "oklch(90.4% 0.028 31.7)",
+        "tonalRamp": [
+          "oklch(15.0% 0.028 31.7)",
+          "oklch(26.4% 0.028 31.7)",
+          "oklch(37.9% 0.028 31.7)",
+          "oklch(49.3% 0.028 31.7)",
+          "oklch(60.7% 0.028 31.7)",
+          "oklch(72.1% 0.028 31.7)",
+          "oklch(83.6% 0.028 31.7)",
+          "oklch(95.0% 0.025 31.7)"
+        ],
+        "usage": "opacity 0.72, through watercolour filter wc0-wc2"
+      },
+      "wash-sage": {
+        "role": "tertiary",
+        "displayName": "Sage Wash",
+        "canonical": "#bfcbb2",
+        "oklch": "oklch(82.6% 0.037 128.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.037 128.2)",
+          "oklch(26.4% 0.037 128.2)",
+          "oklch(37.9% 0.037 128.2)",
+          "oklch(49.3% 0.037 128.2)",
+          "oklch(60.7% 0.037 128.2)",
+          "oklch(72.1% 0.037 128.2)",
+          "oklch(83.6% 0.037 128.2)",
+          "oklch(95.0% 0.025 128.2)"
+        ],
+        "usage": "opacity 0.7, through watercolour filter wc0-wc2"
+      },
+      "fill-blush": {
+        "role": "tertiary",
+        "displayName": "Blush",
+        "canonical": "#f6e4e0",
+        "oklch": "oklch(93.2% 0.021 32.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.021 32.5)",
+          "oklch(26.4% 0.021 32.5)",
+          "oklch(37.9% 0.021 32.5)",
+          "oklch(49.3% 0.021 32.5)",
+          "oklch(60.7% 0.021 32.5)",
+          "oklch(72.1% 0.021 32.5)",
+          "oklch(83.6% 0.021 32.5)",
+          "oklch(95.0% 0.021 32.5)"
+        ]
+      },
+      "fill-sage": {
+        "role": "tertiary",
+        "displayName": "Sage Leaf",
+        "canonical": "#d9e0cf",
+        "oklch": "oklch(89.7% 0.024 125.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.024 125.2)",
+          "oklch(26.4% 0.024 125.2)",
+          "oklch(37.9% 0.024 125.2)",
+          "oklch(49.3% 0.024 125.2)",
+          "oklch(60.7% 0.024 125.2)",
+          "oklch(72.1% 0.024 125.2)",
+          "oklch(83.6% 0.024 125.2)",
+          "oklch(95.0% 0.024 125.2)"
+        ]
+      },
+      "fill-sage-light": {
+        "role": "tertiary",
+        "displayName": "Pale Sage Leaf",
+        "canonical": "#e6ebdf",
+        "oklch": "oklch(93.3% 0.017 125.3)",
+        "tonalRamp": [
+          "oklch(15.0% 0.017 125.3)",
+          "oklch(26.4% 0.017 125.3)",
+          "oklch(37.9% 0.017 125.3)",
+          "oklch(49.3% 0.017 125.3)",
+          "oklch(60.7% 0.017 125.3)",
+          "oklch(72.1% 0.017 125.3)",
+          "oklch(83.6% 0.017 125.3)",
+          "oklch(95.0% 0.017 125.3)"
+        ]
+      },
+      "fill-eucalyptus": {
+        "role": "tertiary",
+        "displayName": "Eucalyptus Grey-Green",
+        "canonical": "#dde4d7",
+        "oklch": "oklch(91.0% 0.019 130.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.019 130.2)",
+          "oklch(26.4% 0.019 130.2)",
+          "oklch(37.9% 0.019 130.2)",
+          "oklch(49.3% 0.019 130.2)",
+          "oklch(60.7% 0.019 130.2)",
+          "oklch(72.1% 0.019 130.2)",
+          "oklch(83.6% 0.019 130.2)",
+          "oklch(95.0% 0.019 130.2)"
+        ]
+      },
+      "fill-berry": {
+        "role": "tertiary",
+        "displayName": "Dried Berry",
+        "canonical": "#c98f86",
+        "oklch": "oklch(70.4% 0.072 28.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.065 28.9)",
+          "oklch(26.4% 0.072 28.9)",
+          "oklch(37.9% 0.072 28.9)",
+          "oklch(49.3% 0.072 28.9)",
+          "oklch(60.7% 0.072 28.9)",
+          "oklch(72.1% 0.072 28.9)",
+          "oklch(83.6% 0.071 28.9)",
+          "oklch(95.0% 0.025 28.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero headline only; one italic turn allowed."
+      },
+      "display-page": {
+        "displayName": "Display Page",
+        "purpose": "Inner-page hero headlines, max 14ch."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings, balanced wrap."
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "Lead testimonial with hanging rose-ink quote marks."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Plate annotations, steps, values."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "The sentence under every heading; Hanken 300, soft graphite, 34-46ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; 60-62ch caps on prose and answers."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, nav, captions; footer headings at 600."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Pill button labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "nav-float",
+        "value": "0 0 0 1px rgba(43,43,43,0.14), 0 10px 30px -18px rgba(43,43,43,0.35)",
+        "purpose": "Floating nav pill once scrolled; at top it is 60% white with no ring."
+      },
+      {
+        "name": "button-lift",
+        "value": "0 12px 28px -14px rgba(43,43,43,0.55)",
+        "purpose": "Primary pill button; small variant has none."
+      },
+      {
+        "name": "soft-card",
+        "value": "0 0 0 1px rgba(43,43,43,0.14), 0 1px 2px rgba(43,43,43,0.04), 0 18px 40px -18px rgba(43,43,43,0.18)",
+        "purpose": "Form card only."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #8e4a3f; outline-offset: 3px; border-radius: 4px",
+        "purpose": "Global :focus-visible."
+      },
+      {
+        "name": "field-focus",
+        "value": "inset 0 0 0 1.5px #8e4a3f, 0 0 0 4px rgba(235,195,188,0.45)",
+        "purpose": "Input focus."
+      },
+      {
+        "name": "frost",
+        "value": "backdrop-filter: blur(14px) saturate(1.2)",
+        "purpose": "Nav pill (mobile menu uses blur(24px) over 94% white)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Default easing for every transition and the draw-in."
+      },
+      {
+        "name": "ease-press",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Button press scale (0.98) over 0.45s."
+      },
+      {
+        "name": "draw-stroke",
+        "value": "stroke-dashoffset 1 to 0 over 2.4s, stagger 70ms per element",
+        "purpose": "Illustration strokes draw in on first view (foliage first)."
+      },
+      {
+        "name": "draw-fill",
+        "value": "color over 1.4s, delayed stagger + 900ms",
+        "purpose": "Fills settle after strokes."
+      },
+      {
+        "name": "draw-wash",
+        "value": "opacity 0 to 1 over 1.6s, scale 0.96 to 1 over 2s, delay 0.2s",
+        "purpose": "Washes bloom behind the ink."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all durations 0.01ms; no motion class added",
+        "purpose": "Finished drawings shown statically."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "plate-stack",
+        "value": "1020px"
+      },
+      {
+        "name": "single-column",
+        "value": "860px"
+      },
+      {
+        "name": "full-width-buttons",
+        "value": "560px"
+      }
+    ],
+    "illustration": {
+      "sprite": [
+        "rose",
+        "rose_side",
+        "bud",
+        "peony",
+        "tulip",
+        "leaf",
+        "coin (eucalyptus)",
+        "berry",
+        "pot"
+      ],
+      "strokes": {
+        "contour": 1.7,
+        "stem": 1.1,
+        "hairline": 0.85,
+        "vectorEffect": "non-scaling-stroke",
+        "color": "#2b2b2b",
+        "caps": "round"
+      },
+      "fillClasses": {
+        "c-rose": "#ebc3bc",
+        "c-blush": "#f6e4e0",
+        "c-paper": "#ffffff",
+        "c-sage": "#d9e0cf",
+        "c-sage2": "#e6ebdf",
+        "c-euc": "#dde4d7",
+        "c-berry": "#c98f86",
+        "unclassed": "#ffffff"
+      },
+      "washClasses": {
+        "w-rose": "#ecc6be @ 0.72",
+        "w-rose2": "#f1d9d4 @ 0.72",
+        "w-sage": "#bfcbb2 @ 0.70"
+      },
+      "filters": {
+        "ids": [
+          "wc0",
+          "wc1",
+          "wc2"
+        ],
+        "recipe": "displacement warp (0.018, scale 26); two merged translucent passes masked by pooling noise (0.011); paper grain (0.85); darker drying edge from eroded ring (radius 3.2, 72% luminance) masked by low-frequency drift noise (0.006). Same recipe, different seeds."
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "WhatsApp Pill Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one primary action: graphite pill with nested arrow circle; always opens WhatsApp.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Pedir pelo WhatsApp <span class=\"ds-chip\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 17 17 7M9 7h8v8\"/></svg></span></a>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-btn{display:inline-flex;align-items:center;gap:0.85rem;padding:0.5rem 0.5rem 0.5rem 1.5rem;min-height:3.25rem;border:0;border-radius:999px;background:var(--ink,#2b2b2b);color:var(--paper,#fff);font:500 1rem/1 var(--text);letter-spacing:0.005em;text-decoration:none;cursor:pointer;box-shadow:0 12px 28px -14px rgba(43,43,43,0.55);transition:transform 0.45s var(--ease-press),background-color 0.4s var(--ease);} .ds-btn .ds-chip{display:grid;place-items:center;width:2.25rem;height:2.25rem;border-radius:50%;background:rgba(255,255,255,0.14);transition:transform 0.5s var(--ease);} .ds-btn .ds-chip svg{width:1.15rem;height:1.15rem;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;} .ds-btn:hover{background:#1c1c1c;} .ds-btn:hover .ds-chip{transform:translate(3px,-1px) scale(1.06);} .ds-btn:active{transform:scale(0.98);} .ds-btn:focus-visible{outline:2px solid var(--rose-ink,#8e4a3f);outline-offset:3px;}"
+    },
+    {
+      "name": "Small Pill Button",
+      "kind": "button",
+      "refersTo": "button-small",
+      "description": "Compact WhatsApp button inside the nav pill; no shadow.",
+      "html": "<a class=\"ds-btn ds-btn--small\" href=\"#\">Pedir pelo WhatsApp <span class=\"ds-chip\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 17 17 7M9 7h8v8\"/></svg></span></a>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-btn{display:inline-flex;align-items:center;gap:0.85rem;padding:0.5rem 0.5rem 0.5rem 1.5rem;min-height:3.25rem;border:0;border-radius:999px;background:var(--ink,#2b2b2b);color:var(--paper,#fff);font:500 1rem/1 var(--text);letter-spacing:0.005em;text-decoration:none;cursor:pointer;box-shadow:0 12px 28px -14px rgba(43,43,43,0.55);transition:transform 0.45s var(--ease-press),background-color 0.4s var(--ease);} .ds-btn .ds-chip{display:grid;place-items:center;width:2.25rem;height:2.25rem;border-radius:50%;background:rgba(255,255,255,0.14);transition:transform 0.5s var(--ease);} .ds-btn .ds-chip svg{width:1.15rem;height:1.15rem;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;} .ds-btn:hover{background:#1c1c1c;} .ds-btn:hover .ds-chip{transform:translate(3px,-1px) scale(1.06);} .ds-btn:active{transform:scale(0.98);} .ds-btn:focus-visible{outline:2px solid var(--rose-ink,#8e4a3f);outline-offset:3px;} .ds-btn--small{min-height:2.75rem;padding:0.35rem 0.35rem 0.35rem 1.1rem;font-size:0.9375rem;gap:0.6rem;box-shadow:none;} .ds-btn--small .ds-chip{width:2rem;height:2rem;}"
+    },
+    {
+      "name": "Floating Nav Pill",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Frosted floating pill: wordmark, soft-graphite links with rose pill hover and current state.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\">Harrison <span>Flores</span></a><ul><li><a href=\"#\" aria-current=\"page\">Início</a></li><li><a href=\"#\">Serviços</a></li><li><a href=\"#\">Sobre</a></li><li><a href=\"#\">Contato</a></li></ul></nav>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-nav{display:flex;align-items:center;gap:1.5rem;padding:0.5rem 0.5rem 0.5rem 1.4rem;border-radius:999px;background:rgba(255,255,255,0.82);backdrop-filter:blur(14px) saturate(1.2);box-shadow:0 0 0 1px var(--line),0 10px 30px -18px rgba(43,43,43,0.35);} .ds-brand{font-family:var(--display);font-size:1.3rem;font-weight:500;letter-spacing:-0.01em;text-decoration:none;color:var(--ink);} .ds-brand span{font-style:italic;font-weight:400;color:var(--rose-ink);} .ds-nav ul{display:flex;gap:0.25rem;margin:0 0 0 auto;padding:0;list-style:none;} .ds-nav ul a{display:block;padding:0.55rem 0.9rem;border-radius:999px;text-decoration:none;font:400 0.9375rem var(--text);color:var(--ink-soft);transition:background-color 0.35s var(--ease),color 0.35s var(--ease);} .ds-nav ul a:hover,.ds-nav ul a[aria-current=\"page\"]{background:var(--rose);color:var(--ink);} .ds-nav a:focus-visible{outline:2px solid var(--rose-ink);outline-offset:3px;}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Tinted borderless field with hairline inset; rose-ink border and rose halo on focus.",
+      "html": "<label class=\"ds-field\"><span>Seu nome</span><input placeholder=\"Como podemos te chamar?\"></label>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-field{display:grid;gap:0.45rem;font:500 0.9375rem var(--text);color:var(--ink);} .ds-field input{font:400 1rem var(--text);color:var(--ink);background:#fbf8f7;border:0;border-radius:0.9rem;box-shadow:inset 0 0 0 1px var(--line);padding:0.85rem 1rem;min-height:3.1rem;caret-color:var(--rose-ink);transition:box-shadow 0.3s var(--ease),background-color 0.3s var(--ease);} .ds-field input::placeholder{color:#6b6663;} .ds-field input:hover{box-shadow:inset 0 0 0 1px var(--line-strong);} .ds-field input:focus{outline:none;background:var(--paper);box-shadow:inset 0 0 0 1.5px var(--rose-ink),0 0 0 4px rgba(235,195,188,0.45);}"
+    },
+    {
+      "name": "Occasion Chips",
+      "kind": "chip",
+      "refersTo": "chip-occasion",
+      "description": "Outlined pill list of occasions; static, not a filter.",
+      "html": "<ul class=\"ds-occ\"><li>Aniversário</li><li>Presente</li><li>Para a casa</li></ul>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-occ{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:0.5rem;font:400 0.9375rem var(--text);color:var(--ink);} .ds-occ li{padding:0.45rem 0.95rem;border-radius:999px;box-shadow:inset 0 0 0 1px var(--line-strong);}"
+    },
+    {
+      "name": "Example Tag",
+      "kind": "chip",
+      "refersTo": "tag-example",
+      "description": "Marks placeholder testimonials as examples.",
+      "html": "<span class=\"ds-tag\">Exemplo</span>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-tag{display:inline-flex;align-items:center;padding:0.15rem 0.6rem;border-radius:999px;font:500 0.8125rem var(--text);color:var(--rose-ink);background:rgba(235,195,188,0.45);}"
+    },
+    {
+      "name": "Form Card",
+      "kind": "card",
+      "refersTo": "card-form",
+      "description": "The only bordered, shadowed container: the contact order form.",
+      "html": "<div class=\"ds-card\"><h3>Monte seu pedido</h3><p>Preencha e abrimos o WhatsApp com a mensagem pronta.</p></div>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-card{background:var(--paper);border-radius:1.75rem;padding:clamp(1.5rem,1rem + 2.5vw,3rem);box-shadow:0 0 0 1px var(--line),0 1px 2px rgba(43,43,43,0.04),0 18px 40px -18px rgba(43,43,43,0.18);} .ds-card h3{margin:0;font:450 2rem/1.04 var(--display);letter-spacing:-0.02em;color:var(--ink);} .ds-card p{margin:0.75rem 0 0;font:400 1.0625rem/1.65 var(--text);color:var(--ink-soft);}"
+    },
+    {
+      "name": "FAQ Row",
+      "kind": "custom",
+      "description": "Details row between hairlines; display-face question, outlined circle plus that turns minus and fills rose.",
+      "html": "<details class=\"ds-faq\"><summary>Como faço um pedido?<span class=\"ds-pm\"></span></summary><p>Pelo WhatsApp: conte a ocasião e montamos o pedido com você.</p></details>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-faq{border-block:1px solid var(--line);} .ds-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:1.5rem 0;font:450 1.35rem/1.3 var(--display);color:var(--ink);} .ds-faq summary::-webkit-details-marker{display:none;} .ds-pm{flex:none;position:relative;width:2.25rem;height:2.25rem;border-radius:50%;box-shadow:inset 0 0 0 1px var(--line-strong);transition:background-color 0.35s var(--ease);} .ds-pm::before,.ds-pm::after{content:\"\";position:absolute;left:50%;top:50%;width:0.8rem;height:1px;background:var(--ink);transform:translate(-50%,-50%);transition:transform 0.5s var(--ease);} .ds-pm::after{transform:translate(-50%,-50%) rotate(90deg);} .ds-faq summary:hover .ds-pm,.ds-faq[open] .ds-pm{background:var(--rose);} .ds-faq[open] .ds-pm::after{transform:translate(-50%,-50%) rotate(0deg);} .ds-faq summary:focus-visible{outline:2px solid var(--rose-ink);outline-offset:3px;border-radius:6px;} .ds-faq p{margin:0;padding:0 3.5rem 1.75rem 0;font:400 1.0625rem/1.65 var(--text);color:var(--ink-soft);}"
+    },
+    {
+      "name": "Botanical Rose on Wash",
+      "kind": "custom",
+      "refersTo": "art-frame-rose",
+      "description": "Signature imagery: graphite line rose (contour 1.7, hairline 0.85, stem 1.1, non-scaling) over a filtered watercolour wash, in a rose art frame.",
+      "html": "<div class=\"ds-art\"><svg viewBox=\"0 0 200 240\" role=\"img\" aria-label=\"Rosa\"><defs><filter id=\"ds-wc\" x=\"-25%\" y=\"-25%\" width=\"150%\" height=\"150%\" color-interpolation-filters=\"sRGB\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.018\" numOctaves=\"3\" seed=\"7\" result=\"warp\"/><feDisplacementMap in=\"SourceGraphic\" in2=\"warp\" scale=\"26\" xChannelSelector=\"R\" yChannelSelector=\"G\" result=\"shape\"/><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.011\" numOctaves=\"2\" seed=\"27\" result=\"pool\"/><feColorMatrix in=\"pool\" type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2.2 -0.55\" result=\"poolA\"/><feComposite in=\"shape\" in2=\"poolA\" operator=\"in\" result=\"pooled\"/><feMerge result=\"body\"><feMergeNode in=\"pooled\"/><feMergeNode in=\"pooled\"/></feMerge><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.85\" numOctaves=\"2\" seed=\"47\" result=\"grain\"/><feColorMatrix in=\"grain\" type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.6 1.55\" result=\"grainA\"/><feComposite in=\"body\" in2=\"grainA\" operator=\"in\" result=\"grained\"/><feMorphology in=\"shape\" operator=\"erode\" radius=\"3.2\" result=\"inner\"/><feComposite in=\"shape\" in2=\"inner\" operator=\"out\" result=\"ring\"/><feGaussianBlur in=\"ring\" stdDeviation=\"0.9\" result=\"ringSoft\"/><feColorMatrix in=\"ringSoft\" type=\"matrix\" values=\"0.72 0 0 0 0 0 0.72 0 0 0 0 0 0.72 0 0 0 0 0 0.9 0\" result=\"edgeFull\"/><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.006\" numOctaves=\"1\" seed=\"67\" result=\"drift\"/><feColorMatrix in=\"drift\" type=\"matrix\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4.2 -1.7\" result=\"driftA\"/><feComposite in=\"edgeFull\" in2=\"driftA\" operator=\"in\" result=\"edge\"/><feMerge><feMergeNode in=\"grained\"/><feMergeNode in=\"edge\"/></feMerge></filter></defs><path class=\"w\" filter=\"url(#ds-wc)\" d=\"M100 20 C150 20 180 60 175 100 C170 140 140 160 100 160 C60 160 25 140 25 100 C25 60 50 20 100 20Z\"/><g class=\"k\" transform=\"translate(50 40)\"><path vector-effect=\"non-scaling-stroke\" stroke-width=\"1.1\" d=\"M50 90 Q52 140 50 190\"/><path vector-effect=\"non-scaling-stroke\" stroke-width=\"1.7\" fill=\"#ebc3bc\" d=\"M21 50 C22 34 37 26 50 32 C63 26 78 34 79 50 C80 69 67 81 50 81 C33 81 20 69 21 50 Z\"/><path vector-effect=\"non-scaling-stroke\" stroke-width=\"0.85\" d=\"M31 49 C31 38 44 33 51 38 C58 33 69 39 68 49\"/><path vector-effect=\"non-scaling-stroke\" stroke-width=\"0.85\" d=\"M40 49 C40 42 58 42 59 49 C59 56 46 58 45 51 C45 47 53 46 54 50\"/><path vector-effect=\"non-scaling-stroke\" stroke-width=\"0.85\" d=\"M21 50 C29 60 39 64 49 61\"/><path vector-effect=\"non-scaling-stroke\" stroke-width=\"0.85\" d=\"M79 50 C71 61 59 65 48 62\"/><path vector-effect=\"non-scaling-stroke\" stroke-width=\"1.7\" d=\"M42 80 C38 86 33 88 28 87 C34 84 38 81 40 79 Z M58 80 C62 86 67 88 72 87 C66 84 62 81 60 79 Z\"/></g></svg></div>",
+      "css": ":host{--paper:#ffffff;--rose:#f3e3e0;--rose-deep:#ebc3bc;--rose-ink:#8e4a3f;--ink:#2b2b2b;--ink-soft:#595654;--line:rgba(43,43,43,0.14);--line-strong:rgba(43,43,43,0.32);--ease:cubic-bezier(0.22,1,0.36,1);--ease-press:cubic-bezier(0.32,0.72,0,1);--display:\"Bodoni Moda\",\"Bodoni 72\",\"Didot\",Georgia,serif;--text:\"Hanken Grotesk\",\"Segoe UI\",system-ui,sans-serif;} .ds-art{background:var(--rose);border-radius:2.25rem;padding:2rem;max-width:18rem;} .ds-art svg{display:block;width:100%;} .ds-art .w{fill:#ecc6be;opacity:0.72;} .ds-art .k{fill:none;stroke:var(--ink);stroke-linecap:round;stroke-linejoin:round;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Botanical Plate on White Paper",
+    "overview": "**Creative North Star: \"The Botanical Plate on White Paper\"**\n\nThe premium florist canon, played straight. The page is quiet white paper and the flowers are the only loud thing on it: botanical line drawings in graphite ink laid over translucent watercolour washes of rose and sage. Everything else (type, buttons, dividers) recedes into a graphite-on-white register so the drawings carry the brand.\n\nDensity is low and editorial. Sections breathe on a large fluid rhythm, structure comes from hairline rules rather than boxes, and dusty rose takes over whole sections as the single field colour. Type pairs a high-contrast Bodoni Moda display, often turning one phrase italic, with a light, open Hanken Grotesk for reading. The one interactive voice is the graphite pill button with a nested arrow circle, which always leads to WhatsApp.\n\nMotion is a single moment: the illustration strokes draw themselves in on first view, then fills and washes settle. Nothing else animates on scroll.",
+    "keyCharacteristics": [
+      "White paper ground; rose (#f3e3e0) owns whole sections; graphite is ink, never a field.",
+      "Imagery is inline SVG line art over watercolour washes, not photography (photo slots are placeholders until real photos exist).",
+      "Bodoni Moda display with optical sizing and one italic turn per headline; Hanken Grotesk 300 leads, 400 body.",
+      "Pill geometry for every control; large soft frames for art and the form card.",
+      "Hairline dividers instead of cards; shadows only on floating or pressable things."
+    ],
+    "rules": [
+      {
+        "name": "The Rose Field Rule",
+        "body": "Rose is the only colour that fills a section. Graphite stays ink (text, strokes, the button) and is never a section background; sage appears as a field only in the plants art frame.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rose-Ink Accent Rule",
+        "body": "Every small accent, from focus ring to numeral to leader dot, is rose-ink. Do not introduce a second accent hue for UI details.",
+        "section": "colors"
+      },
+      {
+        "name": "The Italic Turn Rule",
+        "body": "A display headline may turn one phrase italic (weight 400), never more; the turn stays graphite. Italic in rose-ink is reserved for the wordmark, service subheads, step numerals and the current mobile-menu item.",
+        "section": "typography"
+      },
+      {
+        "name": "The Light Lead Rule",
+        "body": "The sentence directly under a heading is always Hanken 300 in soft graphite; body copy is 400. Never set leads bold or in the display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline Over Box Rule",
+        "body": "Group content with 1px graphite hairlines (14% or 32%) and space. The form card is the only bordered, shadowed container.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** let rose-field own whole sections, alternating with white paper; never set two rose sections back to back.",
+      "**Do** draw new imagery from the existing symbol sprite: ink in 1.7 / 1.1 / 0.85 non-scaling strokes, fills from the botanical palette, washes through the watercolour filters at about 0.7 opacity.",
+      "**Do** use rose-ink for every small accent (focus, numerals, dots, ticks, tags).",
+      "**Do** route every primary action through the graphite pill button with its nested arrow circle.",
+      "**Do** separate content with hairlines and space; reserve shadow for the nav pill, the primary button and the form card.",
+      "**Do** keep motion to the one draw-in moment and honour reduced motion."
+    ],
+    "donts": [
+      "**Don't** use graphite or sage as a full-section background; rose is the only field colour.",
+      "**Don't** saturate the illustration palette or draw strokes in a colour other than graphite.",
+      "**Don't** lay products out as shop-grid card rows, price tiles or discount banners.",
+      "**Don't** add scroll reveals to sections or text; only the illustrations animate in.",
+      "**Don't** turn more than one phrase of a headline italic, or set leads heavier than 300.",
+      "**Don't** square off controls; buttons, chips, tags and nav are always full pills."
+    ]
+  }
+}

@@ -275,7 +275,7 @@ The imagery system, rendered as inline SVG from a per-page symbol sprite.
 ## Do's and Don'ts
 
 ### Do:
-- **Do** let rose-field own whole sections, alternating with white paper; keep at most one rose field in view at a time.
+- **Do** let rose-field own whole sections, alternating with white paper; never set two rose sections back to back.
 - **Do** draw new imagery from the existing symbol sprite: ink in 1.7 / 1.1 / 0.85 non-scaling strokes, fills from the botanical palette, washes through the watercolour filters at about 0.7 opacity.
 - **Do** use rose-ink for every small accent (focus, numerals, dots, ticks, tags).
 - **Do** route every primary action through the graphite pill button with its nested arrow circle.
