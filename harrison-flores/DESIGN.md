@@ -26,20 +26,20 @@ typography:
   display:
     fontFamily: "Bodoni Moda, Bodoni 72, Didot, Georgia, serif"
     fontSize: "clamp(2.9rem, 1.1rem + 6vw, 6rem)"
-    fontWeight: 450
-    lineHeight: 0.98
-    letterSpacing: "-0.035em"
+    fontWeight: 480
+    lineHeight: 1.02
+    letterSpacing: "-0.02em"
     fontVariation: "font-optical-sizing: auto"
   display-page:
     fontFamily: "Bodoni Moda, Bodoni 72, Didot, Georgia, serif"
     fontSize: "clamp(2.75rem, 1.4rem + 4.6vw, 5.25rem)"
-    fontWeight: 450
+    fontWeight: 480
     lineHeight: 1.04
-    letterSpacing: "-0.03em"
+    letterSpacing: "-0.02em"
   headline:
     fontFamily: "Bodoni Moda, Bodoni 72, Didot, Georgia, serif"
     fontSize: "clamp(2.1rem, 1.3rem + 2.8vw, 3.75rem)"
-    fontWeight: 450
+    fontWeight: 480
     lineHeight: 1.04
     letterSpacing: "-0.02em"
   quote:
@@ -51,7 +51,7 @@ typography:
   title:
     fontFamily: "Bodoni Moda, Bodoni 72, Didot, Georgia, serif"
     fontSize: "clamp(1.4rem, 1.15rem + 0.8vw, 1.85rem)"
-    fontWeight: 450
+    fontWeight: 480
     lineHeight: 1.04
     letterSpacing: "-0.02em"
   lead:
@@ -183,7 +183,7 @@ A near-monochrome graphite-on-white system warmed by one dusty rose field and a 
 - **Brick Error** (error): invalid field outline and message only.
 
 ### Named Rules
-**The Rose Field Rule.** Rose is the only colour that fills a section. Graphite stays ink (text, strokes, the button) and is never a section background; sage appears as a field only in the plants art frame.
+**The Rose Field Rule.** Rose is the only colour that fills a section, and a rose section never starts or ends on a hard edge: it fades in from white and back out over 5rem to 10rem (a linear gradient through a 50% rose/white mix). Graphite stays ink (text, strokes, the button) and is never a section background; sage appears as a field only in the plants art frame.
 
 **The Rose-Ink Accent Rule.** Every small accent, from focus ring to numeral to leader dot, is rose-ink. Do not introduce a second accent hue for UI details.
 
@@ -192,14 +192,14 @@ A near-monochrome graphite-on-white system warmed by one dusty rose field and a 
 **Display Font:** Bodoni Moda (with Bodoni 72, Didot, Georgia), embedded variable 400 to 900 with italic, optical sizing on.
 **Body Font:** Hanken Grotesk (with Segoe UI, system-ui), embedded variable 100 to 900.
 
-**Character:** A fashion-plate Didone, set a touch heavier than its hairline default (450) so it holds on white, against a calm, open grotesque kept light for leads. Both fonts ship embedded under the OFL so the site renders identically from disk.
+**Character:** A fashion-plate Didone, set at weight 480 with the optical-size axis pinned to its text cut (opsz 11, never the hairline display cut) so the thin strokes stay readable at large sizes, against a calm, open grotesque kept light for leads. Both fonts ship embedded under the OFL so the site renders identically from disk.
 
 ### Hierarchy
-- **Display** (450, clamp 2.9rem to 6rem, line-height 0.98, -0.035em): home hero headline only.
-- **Display Page** (450, clamp 2.75rem to 5.25rem, -0.03em, max 14ch): inner-page hero headlines.
-- **Headline** (450, clamp 2.1rem to 3.75rem, 1.04, -0.02em): section headings, balanced wrapping.
+- **Display** (480, opsz 11, clamp 2.9rem to 6rem, line-height 1.02, -0.02em): home hero headline only.
+- **Display Page** (480, opsz 11, clamp 2.75rem to 5.25rem, -0.02em, max 14ch): inner-page hero headlines.
+- **Headline** (480, opsz 11, clamp 2.1rem to 3.75rem, 1.06, -0.01em): section headings, balanced wrapping.
 - **Quote** (420, clamp 1.75rem to 2.9rem, 1.18): the lead testimonial, with hanging rose-ink quote marks.
-- **Title** (450, clamp 1.4rem to 1.85rem): plate annotations, steps, values. FAQ questions use the display face at 1.2rem to 1.45rem; contact details at 1.35rem.
+- **Title** (480, opsz 11, clamp 1.4rem to 1.85rem): plate annotations, steps, values. FAQ questions use the display face at 1.2rem to 1.45rem; contact details at 1.35rem.
 - **Lead** (Hanken 300, clamp 1.125rem to 1.3rem, 1.65, soft graphite): the sentence under every heading; 34 to 46ch.
 - **Body** (Hanken 400, 1.0625rem, 1.65): running text; answers capped at 62ch, prose at 60ch.
 - **Label** (Hanken 500, 0.9375rem): field labels, nav, footer headings (600), captions.
@@ -211,7 +211,7 @@ A near-monochrome graphite-on-white system warmed by one dusty rose field and a 
 
 ## Layout
 
-A single centred column of up to 78rem with a fluid gutter (1rem to 2.5rem). Sections are separated by a large fluid rhythm (5rem to 10rem) and, where two white sections meet, a hairline top rule. Grids are asymmetric two-column splits rather than equal cards: hero 5/7 with the bouquet bleeding past the right edge of the container, proof 1.4/1, FAQ 1/1.6 with a sticky heading, closing 1.3/1 with the stem drawing anchored to the section's bottom edge, services alternating 1/1 with the art side flipping. Three-up rows (steps, values) are divided by strong hairlines, not boxed.
+A single centred column of up to 78rem with a fluid gutter (1rem to 2.5rem). Sections are separated by a large fluid rhythm (5rem to 10rem) and, where two white sections meet, a hairline top rule. Grids are asymmetric two-column splits rather than equal cards: hero 6/6 with the whole bouquet visible inside its column (capped at the viewport height), proof 1.4/1, FAQ 1/1.6 with a sticky heading, closing 1.3/1 with the stem drawing anchored to the section's bottom edge, services alternating 1/1 with the art side flipping. Three-up rows (steps, values) are divided by strong hairlines, not boxed.
 
 The benefits plate is an absolutely positioned figure (1020:600) with the drawing centred and three annotations attached by leader lines.
 
