@@ -252,31 +252,18 @@ a:hover { text-decoration-color: currentColor; }
 .section-head--center { margin-inline: auto; text-align: center; }
 
 /* Prancha botânica com anotações (benefícios) */
-.plate {
-  margin-top: clamp(3rem, 2rem + 3vw, 5rem);
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr) minmax(0, 1fr);
-  gap: clamp(1.5rem, 1rem + 2vw, 3rem);
-  align-items: center;
-}
-.plate-art { max-width: 30rem; margin-inline: auto; width: 100%; }
-.plate-col { display: grid; gap: clamp(3rem, 2rem + 4vw, 7rem); }
-.note-item { position: relative; max-width: 22rem; }
+.plate { margin-top: clamp(3rem, 2rem + 3vw, 5rem); }
+.plate-figure { position: relative; aspect-ratio: 1020 / 600; }
+.plate-art { position: absolute; top: 0; left: 25.49%; width: 49.02%; }
+.leaders { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.leaders path { fill: none; stroke: var(--line-strong); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.leaders circle { fill: var(--rose-ink); }
+.note-item { position: absolute; width: 22%; transform: translateY(-0.95rem); }
 .note-item h3 { font-size: var(--fs-h3); }
 .note-item p { margin-top: 0.75rem; color: var(--ink-soft); }
-.note-item::before {
-  content: ""; position: absolute; top: 0.95rem;
-  width: clamp(2rem, 4vw, 4.5rem); height: 1px; background: var(--line-strong);
-}
-.note-item::after {
-  content: ""; position: absolute; top: calc(0.95rem - 3px);
-  width: 7px; height: 7px; border-radius: 50%; background: var(--rose-ink);
-}
-.plate-col--left .note-item { margin-left: auto; text-align: right; }
-.plate-col--left .note-item::before { left: calc(100% + 1rem); }
-.plate-col--left .note-item::after { left: calc(100% + 1rem + clamp(2rem, 4vw, 4.5rem)); }
-.plate-col--right .note-item::before { right: calc(100% + 1rem); }
-.plate-col--right .note-item::after { right: calc(100% + 1rem + clamp(2rem, 4vw, 4.5rem)); }
+.note-item.n1 { left: 0; top: 38.67%; text-align: right; }
+.note-item.n2 { right: 0; top: 27.5%; }
+.note-item.n3 { right: 0; top: 75%; }
 
 /* Depoimentos */
 .proof-grid {
@@ -294,13 +281,8 @@ a:hover { text-decoration-color: currentColor; }
 }
 .quote--lead blockquote p::before { content: "“"; color: var(--rose-ink); margin-left: -0.45em; }
 .quote--lead blockquote p::after { content: "”"; color: var(--rose-ink); }
-.quote-stack { display: grid; gap: 1.25rem; }
-.quote--small {
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: var(--radius-frame);
-  padding: clamp(1.4rem, 1rem + 1.4vw, 2rem);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), var(--shadow-soft);
-}
+.quote-stack { display: grid; gap: 2.25rem; }
+.quote--small { padding-top: 1.5rem; border-top: 1px solid rgba(142, 74, 63, 0.35); }
 .quote--small blockquote p { font-size: 1.0625rem; }
 .quote figcaption { margin-top: 1.25rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem; font-size: var(--fs-small); color: var(--ink-soft); }
 .quote figcaption strong { color: var(--ink); font-weight: 600; }
@@ -359,7 +341,7 @@ a:hover { text-decoration-color: currentColor; }
 .page-hero h1 { font-size: clamp(2.75rem, 1.4rem + 4.6vw, 5.25rem); letter-spacing: -0.03em; max-width: 14ch; }
 .page-hero-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(2rem, 1rem + 4vw, 5rem); align-items: center; }
 .page-hero-art { justify-self: center; width: 100%; max-width: 30rem; margin-block: -3rem -2rem; }
-.page-hero-art--stem { max-width: 17rem; }
+.page-hero-art--wrapped { max-width: 24rem; }
 .page-hero .lead { margin-top: 1.5rem; font-size: var(--fs-lead); font-weight: 300; color: var(--ink-soft); max-width: 46ch; }
 
 .service {
@@ -432,6 +414,7 @@ a:hover { text-decoration-color: currentColor; }
   transition: box-shadow 0.3s var(--ease), background-color 0.3s var(--ease);
   -webkit-appearance: none; appearance: none;
 }
+.field input[type="date"]::-webkit-calendar-picker-indicator { opacity: 0.45; cursor: pointer; }
 .field textarea { min-height: 8rem; resize: vertical; line-height: 1.5; }
 .field select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%232b2b2b' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -464,13 +447,10 @@ a:hover { text-decoration-color: currentColor; }
 
 /* ---------- Responsivo ---------- */
 @media (max-width: 1020px) {
-  .plate { grid-template-columns: minmax(0, 1fr); }
-  .plate-art { order: -1; max-width: 24rem; }
-  .plate-col { gap: 2.25rem; }
-  .plate-col--left .note-item { margin-left: 0; text-align: left; }
-  .note-item { padding-top: 1.5rem; border-top: 1px solid var(--line-strong); max-width: 36rem; }
-  .note-item::before { display: none; }
-  .note-item::after, .plate-col--left .note-item::after, .plate-col--right .note-item::after { left: 0; right: auto; top: -4px; }
+  .plate-figure { aspect-ratio: auto; display: grid; gap: 2.25rem; }
+  .plate-art { position: static; width: 100%; max-width: 24rem; margin-inline: auto; }
+  .leaders { display: none; }
+  .note-item, .note-item.n1, .note-item.n2, .note-item.n3 { position: static; width: auto; max-width: 36rem; transform: none; text-align: left; padding-top: 1.5rem; border-top: 1px solid var(--line-strong); }
   .faq-grid { grid-template-columns: minmax(0, 1fr); }
   .faq-grid .section-head { position: static; }
 }
@@ -502,7 +482,6 @@ a:hover { text-decoration-color: currentColor; }
   .closing { padding-bottom: clamp(4rem, 3rem + 6vw, 6rem); }
   .page-hero-grid { grid-template-columns: minmax(0, 1fr); }
   .page-hero-art { max-width: 20rem; margin-block: 1rem 0; }
-  .page-hero-art--stem { display: none; }
   .hero-art { margin: 0; }
   .steps, .values { grid-template-columns: minmax(0, 1fr); }
   .footer-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
@@ -550,4 +529,5 @@ a:hover { text-decoration-color: currentColor; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; transition-delay: 0s !important; }
 }
 
+.nowrap { white-space: nowrap; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
