@@ -1,0 +1,22 @@
+{
+  "name": "claudeslk",
+  "version": "1.0.0",
+  "description": "Skills e agentes do Claude Code compartilhados entre sessões.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fusas/claudeslk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fusas/claudeslk/issues"
+  },
+  "homepage": "https://github.com/Fusas/claudeslk#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4"
+  }
+}
