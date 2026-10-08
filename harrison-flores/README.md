@@ -26,7 +26,14 @@ Tudo o que precisa de dado real aparece no site **com fundo listrado em rosa**. 
 4. **Perguntas frequentes:** em `index.html`, complete entrega, prazo mínimo de encomenda e formas de pagamento.
 5. **História da loja:** em `sobre.html`, escreva quem começou a loja, quando e onde.
 6. **Foto da loja ou da equipe:** em `sobre.html` há um espaço reservado com uma ilustração.
-7. **Confirme estes pontos:** cartão com mensagem e dicas de rega aparecem como espaços marcados em `servicos.html` e nas perguntas frequentes. Se a loja oferecer, troque pelo texto final; se não, apague a linha.
+7. **Fotos dos buquês:** a página inicial tem a seção "Ideias para o seu pedido" com 4 espaços de foto. Coloque as fotos em `assets/fotos/` com estes nomes exatos (formato JPG, de preferência na vertical):
+   - `lirios-brancos.jpg`
+   - `girassois-noite-estrelada.jpg`
+   - `rosas-sortidas.jpg`
+   - `rosas-vermelhas-presente.jpg`
+
+   Enquanto a foto não estiver lá, o site mostra um aviso com o nome do arquivo no lugar dela. Use só fotos da loja ou fotos que você tenha permissão para usar.
+8. **Confirme estes pontos:** cartão com mensagem e dicas de rega aparecem como espaços marcados em `servicos.html` e nas perguntas frequentes. Se a loja oferecer, troque pelo texto final; se não, apague a linha.
 
 ## Identidade visual
 

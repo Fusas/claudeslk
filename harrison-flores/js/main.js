@@ -104,6 +104,13 @@
     });
   }
 
+  // Galeria: enquanto a foto não for enviada, mostra o aviso no lugar dela.
+  document.querySelectorAll(".shot img").forEach(function (img) {
+    var mark = function () { img.closest(".shot").classList.add("is-missing"); };
+    if (img.complete && img.naturalWidth === 0) mark();
+    else img.addEventListener("error", mark);
+  });
+
   var year = document.getElementById("ano");
   if (year) year.textContent = String(new Date().getFullYear());
 })();
