@@ -26,13 +26,13 @@ Tudo o que precisa de dado real aparece no site **com fundo listrado em rosa**. 
 4. **Perguntas frequentes:** em `index.html`, complete entrega, prazo mínimo de encomenda e formas de pagamento.
 5. **História da loja:** em `sobre.html`, escreva quem começou a loja, quando e onde.
 6. **Foto da loja ou da equipe:** em `sobre.html` há um espaço reservado com uma ilustração.
-7. **Confirme estes pontos:** o texto diz que a loja aceita cartão com mensagem e dá dicas de luz e rega para plantas. Se não for verdade, ajuste o texto.
+7. **Confirme estes pontos:** cartão com mensagem e dicas de rega aparecem como espaços marcados em `servicos.html` e nas perguntas frequentes. Se a loja oferecer, troque pelo texto final; se não, apague a linha.
 
 ## Identidade visual
 
 - **Cores:** branco `#FFFFFF`, rosa pó `#F3E3E0`, grafite `#2B2B2B`, verde sálvia `#8A9A7B`, com tons de apoio em `css/styles.css` (bloco `:root`).
 - **Fontes:** Bodoni Moda (títulos) e Hanken Grotesk (texto), as duas com licença livre (SIL OFL, em `assets/fonts/`). Ficam embutidas em `css/fonts.css`, por isso o site funciona até aberto direto do disco.
-- **Ilustrações:** desenhadas em SVG dentro de cada página, com traço que se desenha ao aparecer na tela. Se quiser usar fotos reais, elas podem substituir as ilustrações aos poucos.
+- **Ilustrações:** desenhadas em SVG dentro de cada página, com traço que se desenha ao aparecer na tela (no buquê do topo e no arranjo dos benefícios). Se quiser usar fotos reais, elas podem substituir as ilustrações aos poucos.
 
 ## Acessibilidade
 
